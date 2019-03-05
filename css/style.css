@@ -331,13 +331,12 @@ color: #f04c74;
 
 .messages{
 	position: absolute;
-	height: 300px;
-	width: 1500px;
-	z-index: 3;
-	text-align: center;
-	top: 189px;
-	color: #FFF;
-	left: 4px;
+	height: 100%;
+	width: 100%;
+	z-index:3;
+	text-align:center;
+	top:20%;
+	color:#FFF;
 }
 
 .messages h1{
@@ -1173,17 +1172,19 @@ color: #f04c74;
 	background-size:cover;
 }
 
-video#bgvideo { 
-	position: fixed;
-	left: 0px;
-	bottom: 0px;	
+video#bgvideo {
+	position: absolute;
+	left: 19px;
+	bottom: -6px;
 	min-width: 100%;
 	min-height: 400px;
 	z-index: -1000;
 	background: url(../images/vidbg.jpg) no-repeat;
-	background-size: cover; 
-	background-position:center;
-	overflow:hidden;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	width: auto;
+	height: auto;
 }
 
 /* 14.2 Social Icons */
